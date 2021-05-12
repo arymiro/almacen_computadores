@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script type="text/javascript" src="./scripts/funciones.js"></script>
+    <title>Almacén de computadores</title>
+</head>
+<body>
+    <h1 id="titulo">Almacén de computadores</h1>
+     <div class="contenedor">
+        <div class="labels">
+            <label id="cantidad_computadores_label" for="cantidad_computadores">Cantidad de computadores comprados</label>
+            <input type="number" id="cantidad_computadores" min="1" max="100" required>
+        </div>
+        <br>
+        <button onclick="procesarCompra()">Calcular</button>
+        </div>
+        <div class="contenedor2">
+            <h1 id="Titulo">Orden de compra</h1>
+            <img src="./images/computador.png" alt="No se encuentra la imagen disponible" title="Computador"></img><br>
+            <div class="labels">
+                <label id="valor_compra" for="input_valor_compra">Valor de compra</label><br>
+                <input type="text" id="input_valor_compra" disabled><br>
+                <label id="valor_descuento" for="input_valor_descuento">Valor del descuento</label><br>
+                <input type="text" id="input_valor_descuento" disabled><br>
+                <label id="valor_total" for="input_valor_total">Total</label><br>
+                <input type="text" id="input_valor_total" disabled><br>
+                <div>
+                    <h2 id="informacion_descuento"></h2>
+                </div>
+            </div><br>
+        </div>
+</body>
+</html>

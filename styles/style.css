@@ -1,0 +1,32 @@
+body {
+    font-weight: normal;
+    background-color:white;
+    text-align: center;
+    margin: 10%;
+    border: 10%
+   }
+
+   .contenedor{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid blue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   }
+   .contenedor2{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid blue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   }
+
+   button{
+       color:white;
+       background-color: red;
+       padding: auto;
+   }
+
+   h2{
+       color: red;
+   }
